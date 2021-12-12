@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2807A55D275A75D60010C15D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2807A55C275A75D60010C15D /* AppDelegate.swift */; };
+		2807A55F275A75D60010C15D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2807A55E275A75D60010C15D /* SceneDelegate.swift */; };
+		2807A561275A75D60010C15D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2807A560275A75D60010C15D /* ViewController.swift */; };
+		2807A564275A75D60010C15D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2807A562275A75D60010C15D /* Main.storyboard */; };
+		2807A566275A75D70010C15D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2807A565275A75D70010C15D /* Assets.xcassets */; };
+		2807A569275A75D70010C15D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2807A567275A75D70010C15D /* LaunchScreen.storyboard */; };
+		2807A580275ABCBA0010C15D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2807A57F275ABCBA0010C15D /* TableViewController.swift */; };
+		2807A583275AC86E0010C15D /* PerrosManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2807A582275AC86E0010C15D /* PerrosManager.swift */; };
+		282F3BFE275BEC1600305B49 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 282F3BFD275BEC1600305B49 /* GoogleService-Info.plist */; };
+		283E83ED276565400058D187 /* AcercaDeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283E83EC276565400058D187 /* AcercaDeViewController.swift */; };
+		286CEB34275EE6B90063F355 /* InicioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 286CEB33275EE6B90063F355 /* InicioViewController.xib */; };
+		286CEB37275EE8240063F355 /* CitasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286CEB36275EE8240063F355 /* CitasViewController.swift */; };
+		286CEB492761CA420063F355 /* VeterinariaModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 286CEB472761CA420063F355 /* VeterinariaModel.xcdatamodeld */; };
+		286CEB542761CF070063F355 /* Citas+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286CEB522761CF070063F355 /* Citas+CoreDataClass.swift */; };
+		286CEB552761CF070063F355 /* Citas+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286CEB532761CF070063F355 /* Citas+CoreDataProperties.swift */; };
+		286CEB582761D5910063F355 /* VerCitasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286CEB572761D5910063F355 /* VerCitasViewController.swift */; };
+		286CEB5C2761D7690063F355 /* CitasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286CEB5A2761D7690063F355 /* CitasTableViewCell.swift */; };
+		286CEB5D2761D7690063F355 /* CitasTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 286CEB5B2761D7690063F355 /* CitasTableViewCell.xib */; };
+		286CEB602762D6280063F355 /* CitasCompletasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286CEB5F2762D6280063F355 /* CitasCompletasViewController.swift */; };
+		28F60145275BF77E00428837 /* InicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F60144275BF77E00428837 /* InicioViewController.swift */; };
+		28F60148275BF8C400428837 /* RegistroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F60147275BF8C400428837 /* RegistroViewController.swift */; };
+		86B8D8B1B10AC4004E9C4BE9 /* Pods_Veterinaria.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0C780F4AF18D78E2881CE30 /* Pods_Veterinaria.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		076E0728C10C9D2933C0B349 /* Pods-Veterinaria.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Veterinaria.release.xcconfig"; path = "Target Support Files/Pods-Veterinaria/Pods-Veterinaria.release.xcconfig"; sourceTree = "<group>"; };
+		2807A559275A75D60010C15D /* Veterinaria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Veterinaria.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2807A55C275A75D60010C15D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2807A55E275A75D60010C15D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2807A560275A75D60010C15D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2807A563275A75D60010C15D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2807A565275A75D70010C15D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2807A568275A75D70010C15D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2807A56A275A75D70010C15D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2807A57F275ABCBA0010C15D /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		2807A582275AC86E0010C15D /* PerrosManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerrosManager.swift; sourceTree = "<group>"; };
+		282F3BFD275BEC1600305B49 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		283E83EC276565400058D187 /* AcercaDeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcercaDeViewController.swift; sourceTree = "<group>"; };
+		286CEB33275EE6B90063F355 /* InicioViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InicioViewController.xib; sourceTree = "<group>"; };
+		286CEB36275EE8240063F355 /* CitasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitasViewController.swift; sourceTree = "<group>"; };
+		286CEB482761CA420063F355 /* VeterinariaModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VeterinariaModel.xcdatamodel; sourceTree = "<group>"; };
+		286CEB522761CF070063F355 /* Citas+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Citas+CoreDataClass.swift"; sourceTree = "<group>"; };
+		286CEB532761CF070063F355 /* Citas+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Citas+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		286CEB572761D5910063F355 /* VerCitasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerCitasViewController.swift; sourceTree = "<group>"; };
+		286CEB5A2761D7690063F355 /* CitasTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitasTableViewCell.swift; sourceTree = "<group>"; };
+		286CEB5B2761D7690063F355 /* CitasTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CitasTableViewCell.xib; sourceTree = "<group>"; };
+		286CEB5F2762D6280063F355 /* CitasCompletasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitasCompletasViewController.swift; sourceTree = "<group>"; };
+		28F60144275BF77E00428837 /* InicioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioViewController.swift; sourceTree = "<group>"; };
+		28F60147275BF8C400428837 /* RegistroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroViewController.swift; sourceTree = "<group>"; };
+		9AC5B771C37B6CF7E09AE32D /* Pods-Veterinaria.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Veterinaria.debug.xcconfig"; path = "Target Support Files/Pods-Veterinaria/Pods-Veterinaria.debug.xcconfig"; sourceTree = "<group>"; };
+		A0C780F4AF18D78E2881CE30 /* Pods_Veterinaria.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Veterinaria.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2807A556275A75D60010C15D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86B8D8B1B10AC4004E9C4BE9 /* Pods_Veterinaria.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2807A550275A75D60010C15D = {
+			isa = PBXGroup;
+			children = (
+				2807A55B275A75D60010C15D /* Veterinaria */,
+				2807A55A275A75D60010C15D /* Products */,
+				83D6E11DD625443428304E62 /* Pods */,
+				CDC208C6298CC99F57DB0F6E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2807A55A275A75D60010C15D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2807A559275A75D60010C15D /* Veterinaria.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2807A55B275A75D60010C15D /* Veterinaria */ = {
+			isa = PBXGroup;
+			children = (
+				286CEB4B2761CAB20063F355 /* Modelo */,
+				2807A55C275A75D60010C15D /* AppDelegate.swift */,
+				2807A55E275A75D60010C15D /* SceneDelegate.swift */,
+				2807A560275A75D60010C15D /* ViewController.swift */,
+				2807A562275A75D60010C15D /* Main.storyboard */,
+				2807A565275A75D70010C15D /* Assets.xcassets */,
+				2807A567275A75D70010C15D /* LaunchScreen.storyboard */,
+				2807A56A275A75D70010C15D /* Info.plist */,
+				2807A57F275ABCBA0010C15D /* TableViewController.swift */,
+				2807A582275AC86E0010C15D /* PerrosManager.swift */,
+				282F3BFD275BEC1600305B49 /* GoogleService-Info.plist */,
+				28F60144275BF77E00428837 /* InicioViewController.swift */,
+				28F60147275BF8C400428837 /* RegistroViewController.swift */,
+				286CEB33275EE6B90063F355 /* InicioViewController.xib */,
+				286CEB36275EE8240063F355 /* CitasViewController.swift */,
+				286CEB472761CA420063F355 /* VeterinariaModel.xcdatamodeld */,
+				286CEB572761D5910063F355 /* VerCitasViewController.swift */,
+				286CEB5A2761D7690063F355 /* CitasTableViewCell.swift */,
+				286CEB5B2761D7690063F355 /* CitasTableViewCell.xib */,
+				286CEB5F2762D6280063F355 /* CitasCompletasViewController.swift */,
+				283E83EC276565400058D187 /* AcercaDeViewController.swift */,
+			);
+			path = Veterinaria;
+			sourceTree = "<group>";
+		};
+		286CEB4B2761CAB20063F355 /* Modelo */ = {
+			isa = PBXGroup;
+			children = (
+				286CEB522761CF070063F355 /* Citas+CoreDataClass.swift */,
+				286CEB532761CF070063F355 /* Citas+CoreDataProperties.swift */,
+			);
+			path = Modelo;
+			sourceTree = "<group>";
+		};
+		83D6E11DD625443428304E62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9AC5B771C37B6CF7E09AE32D /* Pods-Veterinaria.debug.xcconfig */,
+				076E0728C10C9D2933C0B349 /* Pods-Veterinaria.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CDC208C6298CC99F57DB0F6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0C780F4AF18D78E2881CE30 /* Pods_Veterinaria.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2807A558275A75D60010C15D /* Veterinaria */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2807A56D275A75D70010C15D /* Build configuration list for PBXNativeTarget "Veterinaria" */;
+			buildPhases = (
+				CAC603AE19E6C98B95ABBB5D /* [CP] Check Pods Manifest.lock */,
+				2807A555275A75D60010C15D /* Sources */,
+				2807A556275A75D60010C15D /* Frameworks */,
+				2807A557275A75D60010C15D /* Resources */,
+				ECACA3F285464C8165C4D945 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Veterinaria;
+			productName = Veterinaria;
+			productReference = 2807A559275A75D60010C15D /* Veterinaria.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2807A551275A75D60010C15D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					2807A558275A75D60010C15D = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 2807A554275A75D60010C15D /* Build configuration list for PBXProject "Veterinaria" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2807A550275A75D60010C15D;
+			productRefGroup = 2807A55A275A75D60010C15D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2807A558275A75D60010C15D /* Veterinaria */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2807A557275A75D60010C15D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2807A569275A75D70010C15D /* LaunchScreen.storyboard in Resources */,
+				282F3BFE275BEC1600305B49 /* GoogleService-Info.plist in Resources */,
+				2807A566275A75D70010C15D /* Assets.xcassets in Resources */,
+				2807A564275A75D60010C15D /* Main.storyboard in Resources */,
+				286CEB5D2761D7690063F355 /* CitasTableViewCell.xib in Resources */,
+				286CEB34275EE6B90063F355 /* InicioViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CAC603AE19E6C98B95ABBB5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Veterinaria-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECACA3F285464C8165C4D945 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Veterinaria/Pods-Veterinaria-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Veterinaria/Pods-Veterinaria-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Veterinaria/Pods-Veterinaria-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2807A555275A75D60010C15D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2807A561275A75D60010C15D /* ViewController.swift in Sources */,
+				2807A55D275A75D60010C15D /* AppDelegate.swift in Sources */,
+				28F60145275BF77E00428837 /* InicioViewController.swift in Sources */,
+				286CEB602762D6280063F355 /* CitasCompletasViewController.swift in Sources */,
+				286CEB5C2761D7690063F355 /* CitasTableViewCell.swift in Sources */,
+				286CEB37275EE8240063F355 /* CitasViewController.swift in Sources */,
+				2807A580275ABCBA0010C15D /* TableViewController.swift in Sources */,
+				28F60148275BF8C400428837 /* RegistroViewController.swift in Sources */,
+				2807A583275AC86E0010C15D /* PerrosManager.swift in Sources */,
+				286CEB552761CF070063F355 /* Citas+CoreDataProperties.swift in Sources */,
+				286CEB492761CA420063F355 /* VeterinariaModel.xcdatamodeld in Sources */,
+				286CEB542761CF070063F355 /* Citas+CoreDataClass.swift in Sources */,
+				2807A55F275A75D60010C15D /* SceneDelegate.swift in Sources */,
+				283E83ED276565400058D187 /* AcercaDeViewController.swift in Sources */,
+				286CEB582761D5910063F355 /* VerCitasViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2807A562275A75D60010C15D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2807A563275A75D60010C15D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2807A567275A75D70010C15D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2807A568275A75D70010C15D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2807A56B275A75D70010C15D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2807A56C275A75D70010C15D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2807A56E275A75D70010C15D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AC5B771C37B6CF7E09AE32D /* Pods-Veterinaria.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Veterinaria/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aldoSaavedra.Veterinaria;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2807A56F275A75D70010C15D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 076E0728C10C9D2933C0B349 /* Pods-Veterinaria.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Veterinaria/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aldoSaavedra.Veterinaria;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2807A554275A75D60010C15D /* Build configuration list for PBXProject "Veterinaria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2807A56B275A75D70010C15D /* Debug */,
+				2807A56C275A75D70010C15D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2807A56D275A75D70010C15D /* Build configuration list for PBXNativeTarget "Veterinaria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2807A56E275A75D70010C15D /* Debug */,
+				2807A56F275A75D70010C15D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		286CEB472761CA420063F355 /* VeterinariaModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				286CEB482761CA420063F355 /* VeterinariaModel.xcdatamodel */,
+			);
+			currentVersion = 286CEB482761CA420063F355 /* VeterinariaModel.xcdatamodel */;
+			path = VeterinariaModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2807A551275A75D60010C15D /* Project object */;
+}
